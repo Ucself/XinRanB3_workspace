@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042AE5311AC264F80037ACD9 /* XRShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 042AE5301AC264F80037ACD9 /* XRShareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		042AE5571AC2652C0037ACD9 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 042AE5491AC2652C0037ACD9 /* read_me.txt */; };
+		042AE5581AC2652C0037ACD9 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 042AE54A1AC2652C0037ACD9 /* WXApi.h */; };
+		042AE5591AC2652C0037ACD9 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 042AE54B1AC2652C0037ACD9 /* WXApiObject.h */; };
+		042AE55A1AC2652C0037ACD9 /* XDShareAli.h in Headers */ = {isa = PBXBuildFile; fileRef = 042AE54C1AC2652C0037ACD9 /* XDShareAli.h */; };
+		042AE55B1AC2652C0037ACD9 /* XDShareAli.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AE54D1AC2652C0037ACD9 /* XDShareAli.m */; };
+		042AE55C1AC2652C0037ACD9 /* XDShareBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 042AE54E1AC2652C0037ACD9 /* XDShareBase.h */; };
+		042AE55D1AC2652C0037ACD9 /* XDShareBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AE54F1AC2652C0037ACD9 /* XDShareBase.m */; };
+		042AE55E1AC2652C0037ACD9 /* XDShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 042AE5501AC2652C0037ACD9 /* XDShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		042AE55F1AC2652C0037ACD9 /* XDShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AE5511AC2652C0037ACD9 /* XDShareManager.m */; };
+		042AE5601AC2652C0037ACD9 /* XDPayOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 042AE5521AC2652C0037ACD9 /* XDPayOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		042AE5611AC2652C0037ACD9 /* XDPayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AE5531AC2652C0037ACD9 /* XDPayOrder.m */; };
+		042AE5621AC2652C0037ACD9 /* XDShareWeChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 042AE5541AC2652C0037ACD9 /* XDShareWeChat.h */; };
+		042AE5631AC2652C0037ACD9 /* XDShareWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 042AE5551AC2652C0037ACD9 /* XDShareWeChat.m */; };
+		04B4A0421AF1FDA500551D7F /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B4A0411AF1FDA500551D7F /* AlipaySDK.framework */; };
+		8A1B116E1AF1CFEF00B34D34 /* payRequsestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1B116A1AF1CFEF00B34D34 /* payRequsestHandler.h */; };
+		8A1B116F1AF1CFEF00B34D34 /* payRequsestHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B116B1AF1CFEF00B34D34 /* payRequsestHandler.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8A1B11701AF1CFEF00B34D34 /* TenpayUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1B116C1AF1CFEF00B34D34 /* TenpayUtil.h */; };
+		8A1B11711AF1CFEF00B34D34 /* TenpayUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B116D1AF1CFEF00B34D34 /* TenpayUtil.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8AC7170F1B0AE10100F63F70 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC7170E1B0AE10100F63F70 /* libWeChatSDK.a */; };
+		8AF1CE9D1B2FD18E0092B143 /* MobClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF1CE9A1B2FD18E0092B143 /* MobClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF1CE9E1B2FD18E0092B143 /* MobClickSocialAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF1CE9B1B2FD18E0092B143 /* MobClickSocialAnalytics.h */; };
+		8AF1CEA01B2FD6690092B143 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF1CE9F1B2FD6690092B143 /* libMobClickLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042AE52B1AC264F80037ACD9 /* XRShareSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XRShareSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		042AE52F1AC264F80037ACD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042AE5301AC264F80037ACD9 /* XRShareSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRShareSDK.h; sourceTree = "<group>"; };
+		042AE5491AC2652C0037ACD9 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		042AE54A1AC2652C0037ACD9 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		042AE54B1AC2652C0037ACD9 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		042AE54C1AC2652C0037ACD9 /* XDShareAli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDShareAli.h; sourceTree = "<group>"; };
+		042AE54D1AC2652C0037ACD9 /* XDShareAli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDShareAli.m; sourceTree = "<group>"; };
+		042AE54E1AC2652C0037ACD9 /* XDShareBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDShareBase.h; sourceTree = "<group>"; };
+		042AE54F1AC2652C0037ACD9 /* XDShareBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDShareBase.m; sourceTree = "<group>"; };
+		042AE5501AC2652C0037ACD9 /* XDShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDShareManager.h; sourceTree = "<group>"; };
+		042AE5511AC2652C0037ACD9 /* XDShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDShareManager.m; sourceTree = "<group>"; };
+		042AE5521AC2652C0037ACD9 /* XDPayOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPayOrder.h; sourceTree = "<group>"; };
+		042AE5531AC2652C0037ACD9 /* XDPayOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPayOrder.m; sourceTree = "<group>"; };
+		042AE5541AC2652C0037ACD9 /* XDShareWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDShareWeChat.h; sourceTree = "<group>"; };
+		042AE5551AC2652C0037ACD9 /* XDShareWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDShareWeChat.m; sourceTree = "<group>"; };
+		042AE5641AC2657D0037ACD9 /* ShareHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShareHeader.pch; path = ../ShareHeader.pch; sourceTree = "<group>"; };
+		04B4A0411AF1FDA500551D7F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		8A1B116A1AF1CFEF00B34D34 /* payRequsestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payRequsestHandler.h; sourceTree = "<group>"; };
+		8A1B116B1AF1CFEF00B34D34 /* payRequsestHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = payRequsestHandler.mm; sourceTree = "<group>"; };
+		8A1B116C1AF1CFEF00B34D34 /* TenpayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenpayUtil.h; sourceTree = "<group>"; };
+		8A1B116D1AF1CFEF00B34D34 /* TenpayUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TenpayUtil.mm; sourceTree = "<group>"; };
+		8AC7170E1B0AE10100F63F70 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		8AF1CE9A1B2FD18E0092B143 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		8AF1CE9B1B2FD18E0092B143 /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
+		8AF1CE9F1B2FD6690092B143 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042AE5271AC264F80037ACD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF1CEA01B2FD6690092B143 /* libMobClickLibrary.a in Frameworks */,
+				8AC7170F1B0AE10100F63F70 /* libWeChatSDK.a in Frameworks */,
+				04B4A0421AF1FDA500551D7F /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042AE5211AC264F80037ACD9 = {
+			isa = PBXGroup;
+			children = (
+				042AE52D1AC264F80037ACD9 /* XRShareSDK */,
+				042AE52C1AC264F80037ACD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042AE52C1AC264F80037ACD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042AE52B1AC264F80037ACD9 /* XRShareSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042AE52D1AC264F80037ACD9 /* XRShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1CE981B2FD18E0092B143 /* UMAnalytics_SDK */,
+				8AF8B8201AE7943A00CCF627 /* AlipaySDK */,
+				042AE5471AC2652C0037ACD9 /* WeChatSDK_1.5 */,
+				042AE54C1AC2652C0037ACD9 /* XDShareAli.h */,
+				042AE54D1AC2652C0037ACD9 /* XDShareAli.m */,
+				042AE54E1AC2652C0037ACD9 /* XDShareBase.h */,
+				042AE54F1AC2652C0037ACD9 /* XDShareBase.m */,
+				042AE5501AC2652C0037ACD9 /* XDShareManager.h */,
+				042AE5511AC2652C0037ACD9 /* XDShareManager.m */,
+				042AE5521AC2652C0037ACD9 /* XDPayOrder.h */,
+				042AE5531AC2652C0037ACD9 /* XDPayOrder.m */,
+				042AE5541AC2652C0037ACD9 /* XDShareWeChat.h */,
+				042AE5551AC2652C0037ACD9 /* XDShareWeChat.m */,
+				042AE5301AC264F80037ACD9 /* XRShareSDK.h */,
+				042AE52E1AC264F80037ACD9 /* Supporting Files */,
+			);
+			path = XRShareSDK;
+			sourceTree = "<group>";
+		};
+		042AE52E1AC264F80037ACD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042AE5641AC2657D0037ACD9 /* ShareHeader.pch */,
+				042AE52F1AC264F80037ACD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042AE5471AC2652C0037ACD9 /* WeChatSDK_1.5 */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7170E1B0AE10100F63F70 /* libWeChatSDK.a */,
+				8A1B11691AF1CFEF00B34D34 /* lib */,
+				042AE5491AC2652C0037ACD9 /* read_me.txt */,
+				042AE54A1AC2652C0037ACD9 /* WXApi.h */,
+				042AE54B1AC2652C0037ACD9 /* WXApiObject.h */,
+			);
+			path = WeChatSDK_1.5;
+			sourceTree = "<group>";
+		};
+		8A1B11691AF1CFEF00B34D34 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B116A1AF1CFEF00B34D34 /* payRequsestHandler.h */,
+				8A1B116B1AF1CFEF00B34D34 /* payRequsestHandler.mm */,
+				8A1B116C1AF1CFEF00B34D34 /* TenpayUtil.h */,
+				8A1B116D1AF1CFEF00B34D34 /* TenpayUtil.mm */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8AF1CE981B2FD18E0092B143 /* UMAnalytics_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1CE9F1B2FD6690092B143 /* libMobClickLibrary.a */,
+				8AF1CE9A1B2FD18E0092B143 /* MobClick.h */,
+				8AF1CE9B1B2FD18E0092B143 /* MobClickSocialAnalytics.h */,
+			);
+			path = UMAnalytics_SDK;
+			sourceTree = "<group>";
+		};
+		8AF8B8201AE7943A00CCF627 /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				04B4A0411AF1FDA500551D7F /* AlipaySDK.framework */,
+			);
+			path = AlipaySDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		042AE5281AC264F80037ACD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF1CE9D1B2FD18E0092B143 /* MobClick.h in Headers */,
+				8A1B11701AF1CFEF00B34D34 /* TenpayUtil.h in Headers */,
+				042AE55A1AC2652C0037ACD9 /* XDShareAli.h in Headers */,
+				042AE55E1AC2652C0037ACD9 /* XDShareManager.h in Headers */,
+				8A1B116E1AF1CFEF00B34D34 /* payRequsestHandler.h in Headers */,
+				042AE5601AC2652C0037ACD9 /* XDPayOrder.h in Headers */,
+				8AF1CE9E1B2FD18E0092B143 /* MobClickSocialAnalytics.h in Headers */,
+				042AE55C1AC2652C0037ACD9 /* XDShareBase.h in Headers */,
+				042AE5581AC2652C0037ACD9 /* WXApi.h in Headers */,
+				042AE5591AC2652C0037ACD9 /* WXApiObject.h in Headers */,
+				042AE5621AC2652C0037ACD9 /* XDShareWeChat.h in Headers */,
+				042AE5311AC264F80037ACD9 /* XRShareSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		042AE52A1AC264F80037ACD9 /* XRShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042AE5411AC264F90037ACD9 /* Build configuration list for PBXNativeTarget "XRShareSDK" */;
+			buildPhases = (
+				042AE5261AC264F80037ACD9 /* Sources */,
+				042AE5271AC264F80037ACD9 /* Frameworks */,
+				042AE5281AC264F80037ACD9 /* Headers */,
+				042AE5291AC264F80037ACD9 /* Resources */,
+				04FC63C21AC295D1002201B7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XRShareSDK;
+			productName = XRShareSDK;
+			productReference = 042AE52B1AC264F80037ACD9 /* XRShareSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042AE5221AC264F80037ACD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = deshan.com;
+				TargetAttributes = {
+					042AE52A1AC264F80037ACD9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 042AE5251AC264F80037ACD9 /* Build configuration list for PBXProject "XRShareSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 042AE5211AC264F80037ACD9;
+			productRefGroup = 042AE52C1AC264F80037ACD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042AE52A1AC264F80037ACD9 /* XRShareSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042AE5291AC264F80037ACD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042AE5571AC2652C0037ACD9 /* read_me.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04FC63C21AC295D1002201B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042AE5261AC264F80037ACD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042AE55B1AC2652C0037ACD9 /* XDShareAli.m in Sources */,
+				042AE5611AC2652C0037ACD9 /* XDPayOrder.m in Sources */,
+				8A1B11711AF1CFEF00B34D34 /* TenpayUtil.mm in Sources */,
+				042AE55F1AC2652C0037ACD9 /* XDShareManager.m in Sources */,
+				042AE5631AC2652C0037ACD9 /* XDShareWeChat.m in Sources */,
+				042AE55D1AC2652C0037ACD9 /* XDShareBase.m in Sources */,
+				8A1B116F1AF1CFEF00B34D34 /* payRequsestHandler.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		042AE53F1AC264F90037ACD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		042AE5401AC264F90037ACD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		042AE5421AC264F90037ACD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/XRShareSDK/AlipaySDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShareHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode\\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(PROJECT_DIR)/XRShareSDK/AlipaySDK",
+				);
+				INFOPLIST_FILE = XRShareSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XRShareSDK/WeChatSDK_1.5",
+					"$(PROJECT_DIR)/XRShareSDK/UMAnalytics_SDK",
+					"$(PROJECT_DIR)/XRShareSDK/AlipaySDK",
+					"$(PROJECT_DIR)/XRShareSDK/WeChatSDK_1.5/lib",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042AE5431AC264F90037ACD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/XRShareSDK/AlipaySDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ShareHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode\\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(PROJECT_DIR)/XRShareSDK/AlipaySDK",
+				);
+				INFOPLIST_FILE = XRShareSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XRShareSDK/WeChatSDK_1.5",
+					"$(PROJECT_DIR)/XRShareSDK/UMAnalytics_SDK",
+					"$(PROJECT_DIR)/XRShareSDK/AlipaySDK",
+					"$(PROJECT_DIR)/XRShareSDK/WeChatSDK_1.5/lib",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042AE5251AC264F80037ACD9 /* Build configuration list for PBXProject "XRShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042AE53F1AC264F90037ACD9 /* Debug */,
+				042AE5401AC264F90037ACD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042AE5411AC264F90037ACD9 /* Build configuration list for PBXNativeTarget "XRShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042AE5421AC264F90037ACD9 /* Debug */,
+				042AE5431AC264F90037ACD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042AE5221AC264F80037ACD9 /* Project object */;
+}
